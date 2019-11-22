@@ -1,0 +1,2 @@
+GET /api/ping controllers.ApiController.ping
+GET /api/recipes/:recipeId controllers.ApiController.getRecipe(recipeId: Int)
